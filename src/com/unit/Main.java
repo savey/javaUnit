@@ -9,5 +9,10 @@ public class Main {
         System.out.println(BaseConvertUtil.binDec(0b11111111111111111111111110000000));
 
         System.out.println(BaseConvertUtil.baseConvert(0xAB, 16, 2));
+
+        System.out.println(BaseConvertUtil.asciiToChar("97"));
+
+        System.out.println(BaseConvertUtil.charToAscii('a'));
+
     }
 }
