@@ -166,8 +166,8 @@ public class BaseConvertUtil {
             switch (tobase) {
                 case 2:
                     return Integer.parseInt(Integer.toBinaryString(num));
-                case 16:
-                    return Integer.parseInt(Integer.toHexString(num));
+                case 10:
+                    return Integer.valueOf(num);
                 default:
                     return num;
             }
