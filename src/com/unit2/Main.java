@@ -1,5 +1,8 @@
 package com.unit2;
 
+import com.unit2.test1.Calc;
+import com.unit2.test1.MemberLev;
+
 public class Main {
 
     public static void main(String[] args) {

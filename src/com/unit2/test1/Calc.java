@@ -1,4 +1,4 @@
-package com.unit2;
+package com.unit2.test1;
 
 import java.math.BigDecimal;
 
@@ -91,7 +91,7 @@ public class Calc {
 
 
     // 分转为元
-    protected double fenToYuan(int fen)
+    public double fenToYuan(int fen)
     {
         BigDecimal cfen = new BigDecimal(String.valueOf(fen));
         BigDecimal base = new BigDecimal(String.valueOf(100));
@@ -100,7 +100,7 @@ public class Calc {
     }
 
     // 元转分
-    protected int yuanToFen(double yuan)
+    public int yuanToFen(double yuan)
     {
         BigDecimal cyuan = new BigDecimal(String.valueOf(yuan));
         BigDecimal base = new BigDecimal(String.valueOf(100));
