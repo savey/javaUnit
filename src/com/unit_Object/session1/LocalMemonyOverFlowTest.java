@@ -1,6 +1,6 @@
 package com.unit_Object.session1;
 
-public class LocalVmOverFlowTest {
+public class LocalMemonyOverFlowTest {
 
     public static void main(String[] args) {
         testLocalMethodOverFlow();

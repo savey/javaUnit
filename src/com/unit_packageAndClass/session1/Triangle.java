@@ -9,7 +9,7 @@ public class Triangle implements ICalcShapeCircumference {
     private double b;
     private double c;
 
-    public Triangle(double a, double b, double c) {
+    Triangle(double a, double b, double c) {
         this.a = a;
         this.b = b;
         this.c = c;

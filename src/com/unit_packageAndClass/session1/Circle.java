@@ -6,9 +6,8 @@ import java.text.DecimalFormat;
 public class Circle implements ICalcShapeCircumference {
 
     private double r;
-    private final double pi = 3.14;
 
-    public Circle(double r) {
+    Circle(double r) {
         this.r = r;
     }
 
@@ -16,7 +15,8 @@ public class Circle implements ICalcShapeCircumference {
     public String calc() {
         DecimalFormat dFormat = new DecimalFormat("#.00");
         BigDecimal dr  = new BigDecimal(r);
-        BigDecimal dpi = new BigDecimal(this.pi);
+        double pi = 3.14;
+        BigDecimal dpi = new BigDecimal(pi);
         BigDecimal dconst = new BigDecimal(2);
         return dFormat.format(dr.multiply(dpi).multiply(dconst).doubleValue());
     }
