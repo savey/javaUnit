@@ -35,8 +35,8 @@ public class JavaArrayTest {
         }
 
         //session4
-        Integer[] arr4 = {1, 2, 3, 4, 5};
-        Object[] newArr = arrayCopy(arr4, 4, 1);
+        Object[] arr4 = {"haha", 2, 3, 4, 5};
+        Object[] newArr = arrayCopy(arr4, 0, 1);
         System.out.println(Arrays.toString(newArr));
     }
 
