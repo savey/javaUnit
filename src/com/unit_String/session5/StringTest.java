@@ -1,8 +1,8 @@
 package com.unit_String.session5;
 
-/**
+/** StringBuilder b = new StringBuilder() b.appen(str1).appen("world).toString();
  * 字符串可以直接用加号进行拼接，但是也有几种不同的情况. 以下不同情况的拼接,分别创建了几个对象?
- * 1） String str = "hello" + "world";
+ * 1）String str = "hello"  +  "world";
  * 2）String str1 = "hello";   String str2 = str1 + "world";
  * 3）String str1 = new String("hello"); String str2 = str1 + "world";
  */
