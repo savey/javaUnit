@@ -55,20 +55,14 @@ public class session5Test {
     }
 
     public static void main(String[] args) {
-        Student tom = new Student("Tom", 18, 100, "class05");
-        Student jerry = new Student("Jerry", 22, 70, "class04");
-        Student owen = new Student("Owen", 25, 90, "class05");
-        Student jim = new Student("Jim", 30, 80, "class05");
-        Student steve = new Student("Steve", 28, 66, "class06");
-        Student kevin = new Student("Kevin", 24, 100, "class04");
 
         List<Student> students = new ArrayList<>();
-        students.add(tom);
-        students.add(jerry);
-        students.add(owen);
-        students.add(jim);
-        students.add(steve);
-        students.add(kevin);
+        students.add(new Student("Tom", 18, 100, "class05"));
+        students.add(new Student("Jerry", 22, 70, "class04"));
+        students.add(new Student("Owen", 25, 90, "class05"));
+        students.add(new Student("Jim", 30, 80, "class05"));
+        students.add(new Student("Steve", 28, 66, "class06"));
+        students.add(new Student("Kevin", 24, 100, "class04"));
 
         int totalAge  = 0;
         int totalScore = 0;
