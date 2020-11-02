@@ -18,6 +18,12 @@ public class ToStringTest {
     }
 
     public static void main(String[] args) {
+        byte s = 127;
+
+        s +=129;
+
+        System.out.println(s);
+
         Prople p = new Prople("Savey", 12);
         System.out.println(p);
     }
